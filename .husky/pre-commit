@@ -1,0 +1,12 @@
+###
+ # @Author: xuhongwei
+ # @Date: 2021-04-30 16:00:36
+ # @LastEditors: xuhongwei
+ # @LastEditTime: 2021-04-30 16:07:32
+### 
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# npm test
+# eslint --fix ./src --ext .vue,.js,.ts
+npx lint-staged
